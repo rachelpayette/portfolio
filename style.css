@@ -1,0 +1,26 @@
+/*color pallet and font pref. */
+root {
+  --black: #171321;
+  --plum: #99537d;
+  --teal: #5a9599;
+  --blue: #7cdee6;
+  --pink: #e694c5;
+  --tan: #e6ddaa;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+
+body {
+  background-color: var(plum);
+}
+
+p {
+}
+
+nav {
+}
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
