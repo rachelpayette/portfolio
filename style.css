@@ -30,33 +30,7 @@ body {
   display: inline;
   width: 3%;
 }
-.header-div {
-  position: relative;
-  width: 100%;
-  height: 50px;
-  overflow: hidden;
-}
 
-.bird {
-  position: absolute;
-  top: 10px;
-  left: -50px;
-  width: 50px;
-  height: 30px;
-  background-color: black;
-  border-radius: 50% 50% 0 0;
-  transform: rotate(45deg);
-  animation: fly 5s linear infinite;
-}
-
-@keyframes fly {
-  0% {
-    transform: translateX(-50px) rotate(45deg);
-  }
-  100% {
-    transform: translateX(calc(100% + 50px)) rotate(45deg);
-  }
-}
 #nav-bar {
   font-size: 20px;
   background: var(--tan);
