@@ -30,7 +30,26 @@ body {
   display: inline;
   width: 3%;
 }
+#header {
+  position: relative;
+  height: 200px; /* set the height to the size of your bird image */
+}
 
+#bird-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fly 5s infinite linear;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 #nav-bar {
   font-size: 20px;
   background: var(--tan);
